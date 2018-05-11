@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dynamicpermission.iml" filepath="$PROJECT_DIR$/dynamicpermission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dyPermission.iml" filepath="$PROJECT_DIR$/dyPermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/dypermission/dypermission.iml" filepath="$PROJECT_DIR$/dypermission/dypermission.iml" />
     </modules>
   </component>

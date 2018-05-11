@@ -29,14 +29,7 @@
     </style>
 
 
-    <style name="PermissionDefaultNormalStyle" >
-        <item name="PermissionTitleColor">#737373</item>
-        <item name="PermissionMsgColor">#737373</item>
-        <item name="PermissionItemTextColor">#737373</item>
-        <item name="PermissionButtonBackground">@drawable/shape_btn_next</item>
-        <item name="PermissionBackround">@drawable/shape_bg_white</item>
-        <item name="PermissionButtonTextColor">@android:color/white</item>
-    </style>
+
 
     <style name="PermissionAnimFade">
         <item name="android:windowEnterAnimation">@anim/fade_in</item>
