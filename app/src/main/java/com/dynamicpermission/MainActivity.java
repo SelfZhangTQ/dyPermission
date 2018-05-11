@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 PermissionManager.create(MainActivity.this)
                         .permissions(permissionItems)
                         .animStyle(R.style.PermissionAnimScale)
-                        .style(R.style.PermissionDefaultBlueStyle)
                         .checkArrayPermission(new PermissionCallback() {
                             @Override
                             public void onClose() {
@@ -61,7 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.CAMERA:
                 PermissionManager.create(MainActivity.this)
                         .animStyle(R.style.PermissionAnimScale)
-                        .style(R.style.PermissionDefaultBlueStyle)
                         .checkSinglePermission(Manifest.permission.CAMERA, new PermissionCallback() {
                             @Override
                             public void onClose() {
